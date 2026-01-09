@@ -1,4 +1,10 @@
-import express from "express";
+app.get("/", (req, res) => {
+  res.send("Supernova backend is LIVE 🚀");
+});
+
+app.listen(3000, () => {
+  console.log("Server running on port 3000");
+});import express from "express";
 import fetch from "node-fetch";
 import cors from "cors";
 
